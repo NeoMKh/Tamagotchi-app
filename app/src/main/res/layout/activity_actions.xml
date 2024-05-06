@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autumn_1"
+    tools:context=".ActionsActivity">
+
+    <TextView
+        android:id="@+id/washView"
+        android:layout_width="113dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="121dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="595dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:text="How is Jerry"
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="266dp"
+        android:layout_height="352dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover_dog2" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="617dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="60dp"
+        android:text="Play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/washButton"
+        android:layout_width="102dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="617dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="58dp"
+        android:foregroundTint="@android:color/holo_orange_dark"
+        android:foregroundTintMode="add"
+        android:text="Wash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/feedButton"
+        android:layout_width="114dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="58dp"
+        android:text="Feed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playView"
+        android:layout_width="106dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="121dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/feedView"
+        android:layout_width="103dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="119dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
